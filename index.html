@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>CREATIVE COMMUNICATIONS</title>
+</head>
+<body>
+    <div class="page-main">
+        <header>
+            <div class="header">
+                <p>facebook</p>
+                <p>youtube</p>
+                <p>facebook</p>
+            </div>
+        </header>
+       <div class="wrap">
+           <div class="creative-block">
+                <h2 class="creative-block_title">CREATIVE</h2>
+               <div class="creative-block_btn">
+                   <div class="btn-contact" id="form-btn_contact">
+                       <p>contact us</p></div>
+                   <div class="btn-contact join" id="form-btn_join">
+                       <p>join us</p></div>
+               </div>
+               <!--выпадающее окно формы contact us-->
+               <div class="hidden">
+                   <div class="form-block">
+                       <div class="close-form"></div>
+                       <form action="action_page.php" id="form-contact">
+                           <label>Name</label><input type="text" name="name"><br>
+                           <label>Phone</label><input type="tel" name="phone"><br>
+                           <label>Mail </label><input type="email" name="email"><br>
+                           <label>Profession </label><input type="text" name="profession"><br>
+                           <label>Portfolio link</label><input type="url" name="portfoliopage"><br>
+                           <label>About</label><input type="text" name="about"><br>
+                           <label class="btn-contact form" id="contact-send-btn"><p>Send</p></label>
+                       </form>
+                   </div>
+               </div>
+               <!--выпадающее окно формы join us-->
+               <div class="hidden_join">
+                   <div class="form-block form-join">
+                       <div class="close-form"></div>
+                       <form action="action_page.php" id="form-join">
+                           <label>Name</label><input type="text" name="name"><br>
+                           <label>Phone</label><input type="tel" name="phone"><br>
+                           <label>Mail </label><input type="email" name="email"><br>
+                           <label>Text </label><input type="text" name="text"><br>
+                           <label class="btn-join form" id="join-send-btn"><p>Send</p></label>
+                       </form>
+                   </div>
+               </div>
+
+           </div>
+           <div class="ideas-block">
+               <h2 class="ideas-block_title">COMMUNICATIONS</h2>
+               <span>ideas and innovation</span>
+           </div>
+           <div class="menu-block">
+               <ul class="menu-block_list">
+                   <li class="menu-block_list__item">advertising</li>
+                   <li class="menu-block_list__item">design</li>
+                   <li class="menu-block_list__item">digital</li>
+                   <li class="menu-block_list__item">media</li>
+                   <li class="menu-block_list__item">pr</li>
+               </ul>
+           </div>
+           <div class="logo-block">
+               <img src="img/AD-FORUM-logopng-1200x543%201.svg" alt="">
+               <img src="img/Epica_logo_hori_w_a94277398c%201.svg" alt="">
+           </div>
+
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
